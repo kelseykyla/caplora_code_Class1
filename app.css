@@ -1,6 +1,6 @@
 body{
     background-image: url('./assets/Path\ 1.png');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: top right;
 }
@@ -32,15 +32,24 @@ ul {
 .navbar-brand{
     float:left;    
 }
-.container{
-    max-width:1200px;
-}
+ 
 .paragraph{
-    padding-top:20%;
+    padding-top:15%;
     float:left;
     font-size:large;
     max-width:750px;
 }
 button{
-    object-position:center;
+    margin-left:50%;
+}
+.calculator{
+  height:100vh;
+  background-color: grey;
+}
+.functionality{
+  height:100vh;
+}
+.numberpad{
+  height:100vh;
+  background-color: tomato;
 }
