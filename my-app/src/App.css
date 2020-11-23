@@ -1,0 +1,87 @@
+body{
+  background-image: url('./assets/p.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:transparent;
+}
+
+li {
+  float:right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: xx-large;
+}
+
+li a:hover {
+  background-color: #111;
+}
+  
+.navbar-brand{
+  float:left;    
+}
+
+.paragraph{
+  padding-top:15%;
+  float:left;
+  font-size:large;
+  max-width:750px;
+}
+button{
+  margin-left:50%;
+}
+.calculator{
+height:100vh;
+background-color: grey;
+}
+.functionality{
+height:100vh;
+}
+.numberpad{
+height:100vh;
+background-color: tomato;
+}
+.margin{
+margin-bottom:20px;
+}
+.numberpad  button{
+height: 30vh;
+}
+.functionality #display{
+height: 50vh;
+background-color: white;
+}
+.functionality .symbol{
+height: 50vh;
+background-color: tomato;
+}
+.symbol button{
+height: 20vh;
+}
+.navigation{
+  height: 70px;
+  background-color: transparent;
+}
+.navigation  > ul{
+  float: right;
+}
+.navigation  > ul >li{
+  width: 70px ;
+  margin-top: 20px;
+}
+.navigation >h1{
+  float: left;
+  width: 150px;
+}

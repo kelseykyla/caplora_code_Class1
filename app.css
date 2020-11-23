@@ -53,3 +53,20 @@ button{
   height:100vh;
   background-color: tomato;
 }
+.margin{
+  margin-bottom:20px;
+}
+.numberpad  button{
+  height: 30vh;
+}
+.functionality #display{
+  height: 50vh;
+  background-color: white;
+}
+.functionality .symbol{
+height: 50vh;
+background-color: tomato;
+}
+.symbol button{
+  height: 20vh;
+}
