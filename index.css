@@ -52,3 +52,7 @@ body{
 .form-message-error{
     color:var(--color-error);
 }
+/* space between input fields */
+.form-input-group{
+    margin-bottom: 1rem;
+}
