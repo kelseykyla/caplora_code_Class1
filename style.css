@@ -64,6 +64,22 @@ body{
     border-radius: var(--border-radius);
     border: 1px solid #dddddd;
     outline: none;
-    background: #feeeee;
+    background: #ffffff;
     transition: background 0.2s, border-color 0.2s;
+    text-align: center;
+}
+
+.form-input-error{
+    color: var(--color-error);
+    border-color: var(--color-error);
+}
+
+.form-input-error-message{
+    margin-top: o.5rem;
+    font-size: o.85rem;
+    color: var(--color-error);
+}
+
+.form-button{
+    padding: 0.75rem;
 }

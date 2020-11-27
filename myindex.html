@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+ <head> 
+    <title>Sign Up/ Sign In Form</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel = 'stylesheet' href= 'style.css'>
+ </head>
+
+
+<body>
+        <div class="container">
+        <form class="form" id="login">
+           <h1 class="form-title">Login</h1>
+              <div class="form-message form-message-error"></div>
+                 <div class="form-input-group">
+                         <input type="text" class="form-input" autofocus placeholder="Full Name">
+                         <div class="form-input-error-message"></div>
+
+                 </div>
+                 <div class="form-input-group">
+                         <input type="email" class="form-input" autofocus placeholder="Email">
+                         <div class="form-input-error-message"></div>
+
+                  </div>   
+                  <div class="form-input-group">
+                     <input type="password" class="form-input" autofocus placeholder="Password">
+                     <div class="form-input-error-message"></div>
+
+              </div>        
+              <div class="form-input-group">
+               <input type="password" class="form-input" autofocus placeholder="Confirm Password">
+               <div class="form-input-error-message"></div>
+
+        </div>     
+        <button class="form-button" type='submit'>Sign Up</button>
+        <!-- create button here with link -->
+               <p class="form-text">
+                  <a href="./src/login.html" class="form-link" id="linkCreateAccount"></a>
+               </p>
+         </form>
+        </div>
+
+
+
+<script src="./src/main.js"></script>
+
+
+</body>
+</html>
