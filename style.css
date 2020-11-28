@@ -52,7 +52,7 @@ body{
 .form-message-error{
     color:var(--color-error);
 }
-/* space between input fields */
+
 .form-input-group{
     max-width: 380px;
     width: 100%;
@@ -74,6 +74,7 @@ body{
     background: none;
     outline: none;
     border: none;
+    text-align:center;
 }
 
 .form-input-error{
@@ -86,9 +87,37 @@ body{
     font-size: o.85rem;
     color: var(--color-error);
 }
-
+.social-media{
+    display: flex;
+    justify-content: center;
+}
 .social-icon{
     font-size: 28px;
     color:  black;
+    height: 46px;
+    width: 46px;
+    border: 1px solid black;
+    margin: 0 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 46px;
 }
-
+.social-icon:hover{
+    color: #2e2c2c;
+}
+.btn-solid{
+    width: 150px;
+    height: 49px;
+    border: none;
+    outline: none;
+    border-radius: 49px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin: 10px 0;  
+}
+.btn-solid:hover{
+    background-color: #2e2c2c;
+}
