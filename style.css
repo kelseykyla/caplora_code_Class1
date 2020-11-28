@@ -54,19 +54,26 @@ body{
 }
 /* space between input fields */
 .form-input-group{
-    margin-bottom: 1rem;
-}
-.form-input{
-    display: block;
+    max-width: 380px;
     width: 100%;
-    padding: 0.75rem;
-    box-sizing: border-box;
-    border-radius: var(--border-radius);
-    border: 1px solid #dddddd;
-    outline: none;
-    background: #ffffff;
-    transition: background 0.2s, border-color 0.2s;
+    height: 55px;
+    background-color:#f0f0f0;
+    margin: 10px 0;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 .4rem;
+}
+.form-input-group i{
     text-align: center;
+    line-height: 55px;
+    color: #acacac;
+    font-size: 1.1rem;
+}
+.form-input-group input{
+    background: none;
+    outline: none;
+    border: none;
 }
 
 .form-input-error{
@@ -80,12 +87,8 @@ body{
     color: var(--color-error);
 }
 
-.btn.btn-dark{
-    background-color: black;
-    text-align: center;
-    margin: auto;
-    position: fixed;
-    display: flex;
-    display: grid;
+.social-icon{
+    font-size: 28px;
+    color:  black;
 }
 
