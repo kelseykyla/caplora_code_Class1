@@ -83,4 +83,9 @@ body{
 .btn.btn-dark{
     background-color: black;
     text-align: center;
+    margin: auto;
+    position: fixed;
+    display: flex;
+    display: grid;
 }
+
